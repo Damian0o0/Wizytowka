@@ -2,11 +2,11 @@ body{
   background-color: #8EE4AF;
   font-family: sans-serif;
   overflow-y: scroll;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none; /* Ukrywa scroll dla firefox i microsoft edge */
   scrollbar-width: none;
 }
-body::-webkit-scrollbar {
-  display: none;
+body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
+  display: none; 
   
 }
 .menu{
@@ -59,4 +59,7 @@ body::-webkit-scrollbar {
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
-
+#contact{
+  text-align: center;
+  color: white;
+}
