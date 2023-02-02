@@ -10,47 +10,24 @@ body{
   word-spacing:10px;
   display: inline;
   cursor: pointer;
-  margin-top: -80px;
+  text-align: right;
+  margin-top: -50px;
 }
 a{
   text-decoration: none;
 }
-.hover06 img {
+#github{
+  width: 2.3%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.animacjalogo #github{
 	-webkit-transform: rotate(15deg) scale(1.4);
 	transform: rotate(1deg) scale(1.4);
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 }
-.hover06:hover img {
+.animacjalogo:hover #github {
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
-}
-@-webkit-keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 200%;
-		height: 200%;
-		opacity: 0;
-	}
-}
-@keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 200%;
-		height: 200%;
-		opacity: 0;
-	}
-}
-#github{
-  width: 2.3%;
 }
