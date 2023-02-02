@@ -1,9 +1,12 @@
 body{
   background-color: #8EE4AF;
-  font-family: Raleway,sans-serif;
+  font-family: sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+ 
 }
 .menu{
-  color: lightblue;
+  color: white;
   text-decoration: none;
   float: right;
   font-size: 50px;
@@ -13,11 +16,32 @@ body{
   text-align: right;
   margin-top: -58px;
 }
-a{
+.animacjamenu{
+  color: white;
+  font-weight: 600;
   text-decoration: none;
+  background:
+    linear-gradient(
+      to right,
+      #8EE4AF,
+      #8EE4AF
+    ),
+    linear-gradient(
+      to right,
+      rgb(26, 12, 228),
+      rgb(31, 6, 145),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.animacjamenu:hover {
+  background-size: 0 3px, 100% 3px;
 }
 #github{
-  width: 2.3%;
+  width: 2.2%;
   margin-left: 15px;
   margin-top: 5px;
 }
