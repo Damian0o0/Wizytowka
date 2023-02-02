@@ -1,9 +1,13 @@
 body{
   background-color: #8EE4AF;
   font-family: sans-serif;
-  overflow: hidden;
   overflow-y: scroll;
- 
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+  
 }
 .menu{
   color: white;
@@ -55,3 +59,4 @@ body{
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
+
