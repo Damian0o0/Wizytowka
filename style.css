@@ -1,6 +1,16 @@
+body{
+  background-color: #8EE4AF;
+  font-family: Raleway,sans-serif;
+}
 .menu{
   color: lightblue;
   text-decoration: none;
+  float: right;
+  font-size: 50px;
+  word-spacing:10px;
+  display: inline;
+  cursor: pointer;
+  font-style: no;
 }
 #github{
   width: 3%;
