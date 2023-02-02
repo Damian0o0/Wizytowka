@@ -14,4 +14,31 @@ body{
 #github{
   width: 3%;
 }
+img{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  will-change: transform;
+}
+img::before,
+img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+  transition: all 250ms ease-in-out;
+}
+img::before {
+  width: 2px;
+  height: 100px;
+  box-shadow: 298px 0 deeppink;
+}
 
+img::after {
+  height: 2px;
+  width: 300px;
+  box-shadow: 0 98px deeppink;
+}
