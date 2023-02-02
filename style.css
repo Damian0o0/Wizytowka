@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #8EE4AF;
   font-family: sans-serif;
@@ -67,6 +70,10 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 }
 /* miejsce do skontaktowania sie */
 #contact{
+  text-align: center;
+  color: white;
+}
+#kontakt{
   text-align: center;
   color: white;
 }
