@@ -20,6 +20,9 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   text-align: right;
   margin-top: -58px;
 }
+
+/*animacja najezdzania na tekst menu  */
+
 .animacjamenu{
   color: white;
   font-weight: 600;
@@ -39,7 +42,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 400ms;
+  transition: background-size 300ms;
 }
 .animacjamenu:hover {
   background-size: 0 3px, 100% 3px;
@@ -49,6 +52,9 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   margin-left: 15px;
   margin-top: 5px;
 }
+
+/*animacja logo githuba  */
+
 .animacjalogo #github{
 	-webkit-transform: rotate(15deg) scale(1.4);
 	transform: rotate(1deg) scale(1.4);
@@ -59,6 +65,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
+/* miejsce do skontaktowania sie */
 #contact{
   text-align: center;
   color: white;
