@@ -69,11 +69,17 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 	transform: rotate(0) scale(1);
 }
 /* miejsce do skontaktowania sie */
-#contact{
+.kontakt{
   text-align: center;
   color: white;
 }
-#kontakt{
-  text-align: center;
+#przycisk {
+  width: 100%;
+  background-color: #4CAF50;
   color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
 }

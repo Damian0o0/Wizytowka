@@ -27,60 +27,20 @@
     <div id="projekty" style="visibility: hidden;">
       <h2>Strony które już zrobiłem</h2>
     </div>
-    <div id="kontakt">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <h2 id="contact">Skontaktuj sie ze mną</h2>
-      <p>Imie</p>
-      <input type="textbox">
+    <div class="kontakt">
+      <h1>Skontaktuj sie ze mną</h1>
+      <form action="/action_page.php">
+        <label for="imie">Imie</label>
+        <input type="text" id="imie" name="imie" placeholder="Twoje imie lub nazwa">
+        <br>
+        <label for="email">E-mail</label>
+       <input type="email" id="email" name="email">
+       <br>
+        <label for="temat">Temat</label>
+        <textarea id="temat" name="subject" placeholder="Napisz o czym chcesz" style="height:25px"></textarea>
+        <br>
+        <input id="przycisk" type="submit" value="Prześlij">
+      </form>
     </div>
 </body>
 </html>
