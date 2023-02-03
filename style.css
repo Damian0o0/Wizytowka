@@ -108,6 +108,10 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+.cardflip:hover .flipcard {
+  transform: rotateY(180deg);
+}
+
 
 /* miejsce do skontaktowania sie */
 .kontakt{
