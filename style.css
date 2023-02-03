@@ -89,3 +89,11 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 #przycisk:hover{
   background-color: #62ff67;
 }
+.input{
+  border-radius: 20px;
+  width: 20%;
+  height: 50%;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
