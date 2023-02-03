@@ -4,9 +4,9 @@ html{
 
 /* Animacja przy otwieraniu strony */
 
-@keyframes slideLeft {
+@keyframes slideUp {
   0% {
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
   100% {
     transform: translateX(0);
@@ -37,7 +37,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
-  animation-name: slideLeft;
+  animation-name: slideUp;
 }
 #kontaktt{
   margin-right: 20px;
@@ -68,14 +68,16 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 .animacjamenu:hover {
   background-size: 0 3px, 100% 3px;
 }
+
+
 #github{
   width: 2.2%;
   margin-left: 20px;
   margin-top: 20px;
-  animation-duration: 2s;
+  animation-duration: 2s;  /* Animacja przy otwieraniu strony */
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  animation-name: slideLeft;
+  animation-name: slideUp;
 }
 
 /* animacja logo githuba */
