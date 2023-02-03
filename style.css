@@ -56,7 +56,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   margin-top: 5px;
 }
 
-/*animacja logo githuba  */
+/* animacja logo githuba */
 
 .animacjalogo #github{
 	-webkit-transform: rotate(15deg) scale(1.4);
@@ -84,7 +84,8 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   border-radius: 1px;
   cursor: pointer;
   font-size: 30px;
+  border-radius: 20px;
 }
-.kontakt label{
-  font-size: 50px;
+#przycisk:hover{
+  background-color: #62ff67;
 }
