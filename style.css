@@ -4,7 +4,7 @@ html{
 
 /* Animacja przy otwieraniu strony */
 
-@keyframes slideUp {
+@keyframes slideUp{
   0% {
     transform: translateY(-100%);
   }
@@ -20,7 +20,7 @@ body{
   -ms-overflow-style: none; /* Ukrywa scroll dla firefox i microsoft edge */
   scrollbar-width: none;
 }
-body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
+body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   display: none; 
   
 }
@@ -92,12 +92,29 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
+
+.cardflip{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flipcard{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 /* miejsce do skontaktowania sie */
 .kontakt{
   text-align: center;
   color: white;
 }
-#przycisk {
+#przycisk{
   text-align: center;
   width: 10%;
   background-color: #13c419;
