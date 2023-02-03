@@ -23,7 +23,9 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   text-align: right;
   margin-top: -40px;
 }
-
+#kontaktt{
+  margin-right: 20px;
+}
 /*animacja najezdzania na tekst menu */
 
 .animacjamenu{
