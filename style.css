@@ -92,12 +92,15 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
-
+/* Animacja kart */
 .cardflip{
   background-color: transparent;
   width: 300px;
   height: 300px;
   perspective: 1000px;
+}
+.umiejetnosci{
+  margin: auto;
 }
 .flipcard{
   position: relative;
@@ -118,7 +121,15 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
+.flipcardfront{
+  background-color: #13c419;
+  color: black;
+}
+.flipcardback {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
 /* miejsce do skontaktowania sie */
 .kontakt{
   text-align: center;
