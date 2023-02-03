@@ -28,12 +28,14 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   color: white;
   text-decoration: none;
   float: right;
+  position: fixed;
   font-size: 50px;
   word-spacing: 20px;
   display: inline;
   cursor: pointer;
   text-align: right;
   margin-top: -40px;
+  text-align: right;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
@@ -97,18 +99,19 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   margin: 1rem;
   color: white;
   font-weight: bold;
+  text-align: left; 
 }
 .cardflip{
   background-color: transparent;
   display: inline-block;
   margin-right: auto; 
+  margin-bottom: 200px;
   margin-left: 150px;
   margin-top: -1000px;
   width: 400px;
   height: 400px;
 }
 .h1umiejetnosci{
-  text-align: left; 
   font-size: 50px;
   font-weight: bold;
 }
