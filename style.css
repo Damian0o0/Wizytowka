@@ -4,9 +4,9 @@ html{
 
 /* Animacja przy otwieraniu strony */
 
-@keyframes slideInLeft {
+@keyframes slideLeft {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   100% {
     transform: translateX(0);
@@ -37,7 +37,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
-  animation-name: slideInLeft;
+  animation-name: slideLeft;
 }
 #kontaktt{
   margin-right: 20px;
@@ -72,10 +72,10 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   width: 2.2%;
   margin-left: 20px;
   margin-top: 20px;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  animation-name: slideInLeft;
+  animation-name: slideLeft;
 }
 
 /* animacja logo githuba */
