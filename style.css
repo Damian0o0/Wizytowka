@@ -17,11 +17,11 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   text-decoration: none;
   float: right;
   font-size: 50px;
-  word-spacing:10px;
+  word-spacing: 20px;
   display: inline;
   cursor: pointer;
   text-align: right;
-  margin-top: -58px;
+  margin-top: -40px;
 }
 
 /*animacja najezdzania na tekst menu */
@@ -52,8 +52,8 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
 }
 #github{
   width: 2.2%;
-  margin-left: 15px;
-  margin-top: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 /* animacja logo githuba */
