@@ -98,7 +98,7 @@ body::-webkit-scrollbar { /* Ukrywa scroll dla chrome, safari i opery */
   cursor: pointer;
 }
 .stopka{
-  background-color: #046907;
+  background-color: #048809;
   height: 100px;
-  width: 
+  width: 100%;
 }
