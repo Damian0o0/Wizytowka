@@ -175,7 +175,12 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   cursor: pointer;
 }
 .stopka{
-  background-color: #048809;
-  height: 100px;
-  width: 100%;
+  position: absolute;
+   left: 0;
+   bottom: 100;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(13, 160, 0);
+   color: white;
+   text-align: center;
 }
