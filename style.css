@@ -27,14 +27,15 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 .menu{
   color: white;
   text-decoration: none;
-  float: right;
+  right: 0; 
+  top: 50%;
   position: fixed;
   font-size: 50px;
   word-spacing: 20px;
   display: inline;
   cursor: pointer;
   text-align: right;
-  margin-top: -40px;
+  margin-top: -450px;
   text-align: right;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
