@@ -184,3 +184,7 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
    color: white;
    text-align: center;
 }
+.stopka p{
+  text-align: right;
+  
+}
