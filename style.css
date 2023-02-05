@@ -26,6 +26,7 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 }
 .menu{
   color: white;
+  overflow: hidden;
   text-decoration: none;
   right: 0; 
   top: 50%;
@@ -96,7 +97,7 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 	transform: rotate(0) scale(1);
 }
 /* Animacja kart */
-.umiejetnosci{
+#umiejetnosci{
   margin: 1rem;
   color: white;
   font-weight: bold;
