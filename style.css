@@ -1,7 +1,6 @@
 html{
   scroll-behavior: smooth;
 }
-@media only screen and (min-width: 960px) {
 /* Animacja przy otwieraniu strony */
 
 @keyframes slideUp{
@@ -47,7 +46,11 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   margin-right: 20px;
 }
 /*animacja najezdzania na tekst menu */
-
+#omnie h1{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
 .animacjamenu{
   color: white;
   font-weight: 600;
@@ -69,16 +72,23 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   background-repeat: no-repeat;
   transition: background-size 300ms;
 }
-.animacjamenu:hover {
+.animacjamenu:hover{
   background-size: 0 3px, 100% 3px;
 }
 #projekty{
   text-align: center;
   color: white;
+}
+#projekty{
+  text-align: center;
+
+ 
+}
+#projekty a{
   font-size: 30px;
   text-decoration: none;
+  color: white;
 }
-
 #github{
   width: 2.2%;
   margin-left: 20px;
@@ -190,83 +200,3 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
    color: white;
    text-align: center;
 }
-
-div.story[lang="pl-PL"] {
-  display: none;
-}
-
-body[lang="en"] div.story[lang="pl-PL"] {
-  display: none;
-}
-
-body[lang="pl-PL"] div.story[lang="pl-PL"] {
-  display: block;
-}
-
-}
-@media screen and (max-width: 481px){
-  body{
-    background-color: #8EE4AF;
-    font-family: sans-serif;
-    overflow-y: scroll;
-    -ms-overflow-style: none; /* Ukrywa scroll dla firefox i microsoft edge */
-    scrollbar-width: none;
-  }
-  #projekty{
-    visibility: hidden;
-  }
-  #github{
-    width: 20%;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-  .menu{
-    color: white;
-    overflow: hidden;
-    text-decoration: none;
-    right: 0; 
-    top: 50%;
-    font-size: 60px;
-    word-spacing: 20px;
-  }
-  
-  #kontakt{
-    text-align: center;
-    color: white;
-  }
-  #przycisk{
-    text-align: center;
-    width: 30%;
-    background-color: #13c419;
-    color: white;
-    padding: 14px 10px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 1px;
-    cursor: pointer;
-    font-size: 25px;
-    border-radius: 20px;
-  }
-  #przycisk:hover{
-    background-color: #62ff67;
-  }
- #kontakt label{
-  font-size: 25px;
- }
-  .input{
-    width: 150px;
-    border-radius: 15px;
-    height:30px;
-  }
-  #stopka{
-    position: absolute;
-     left: 0;
-     bottom: 100;
-     width: 100%;
-     height: 100px;
-     background-color: rgb(13, 160, 0);
-     color: white;
-     text-align: center;
-  }
-  
- }
