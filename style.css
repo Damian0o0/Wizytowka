@@ -11,7 +11,12 @@ html{
     transform: translateX(0);
   }
 }
-
+#openwebsite h1{
+  color: white;
+  position: relative;
+  font-size: 300px;
+  text-align: center;
+}
 body{
   background-color: #8EE4AF;
   font-family: sans-serif;
@@ -81,8 +86,6 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 }
 #projekty{
   text-align: center;
-
- 
 }
 #projekty a{
   font-size: 30px;
@@ -92,7 +95,9 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
 #github{
   width: 2.2%;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: -100px;
+
+  position: fixed;
   animation-duration: 2s;  /* Animacja przy otwieraniu strony */
   animation-timing-function: ease-in;
   animation-delay: 0s;
