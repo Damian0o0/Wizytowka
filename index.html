@@ -42,32 +42,30 @@
       <a href="https://github.com/Damian0o0/Lista-Filmow" style="visibility: hidden;">Lista Filmów</a>
       <h2>Wisielec</h2>
       <img src="images/wisielec.png">
-      <br>
-      <p>
-        <button class="button" data-modal="modalOne">Contact Us</button>
-      </p>
-      <div id="modalOne" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <a class="close">&times;</a>
-            <form action="/">
-              <h2>Contact Us</h2>
-              <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" />
-                <input type="text" name="name" placeholder="Email" />
-                <input type="text" name="name" placeholder="Phone number" />
-                <input type="text" name="name" placeholder="Website" />
-              </div>
-              <span>Message</span>
-              <div>
-                <textarea rows="4"></textarea>
-              </div>
-              <button type="submit" href="/">Submit</button>
-            </form>
-          </div>
+      <div class="openBtn">
+        <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
+      </div>
+      <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+          <form action="/action_page.php" class="formContainer">
+            <h2>Please Log in</h2>
+            <label for="email">
+              <strong>E-mail</strong>
+            </label>
+            <input type="text" id="email" placeholder="Your Email" name="email" required>
+            <label for="psw">
+              <strong>Password</strong>
+            </label>
+            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
         </div>
       </div>
-      <a class="bordeer" href="https://github.com/Damian0o0/Wizytowka">Github</a>
+      
+      <br>
+      
+      <a class="bordeer" href="https://github.com/Damian0o0/Wisielec">Github</a>
     </div>
     <div id="umiejetnosci">
       <h1 class="h1umiejetnosci">
