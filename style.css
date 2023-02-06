@@ -190,6 +190,19 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
    color: white;
    text-align: center;
 }
+
+div.story[lang="pl-PL"] {
+  display: none;
+}
+
+body[lang="en"] div.story[lang="pl-PL"] {
+  display: none;
+}
+
+body[lang="pl-PL"] div.story[lang="pl-PL"] {
+  display: block;
+}
+
 }
 @media screen and (max-width: 481px){
   body{
@@ -202,6 +215,11 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   #projekty{
     visibility: hidden;
   }
+  #github{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
   .menu{
     color: white;
     overflow: hidden;
@@ -211,6 +229,7 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
     font-size: 60px;
     word-spacing: 20px;
   }
+  
   #kontakt{
     text-align: center;
     color: white;
@@ -249,4 +268,5 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
      color: white;
      text-align: center;
   }
+  
  }
