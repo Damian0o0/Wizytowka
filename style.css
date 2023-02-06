@@ -208,6 +208,10 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
     font-size: 60px;
     word-spacing: 20px;
   }
+  #kontakt{
+    text-align: center;
+    color: white;
+  }
   #przycisk{
     text-align: center;
     width: 30%;
@@ -229,6 +233,8 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
  }
   .input{
     width: 150px;
+    border-radius: 15px;
+    height:30px;
   }
   #stopka{
     position: absolute;
