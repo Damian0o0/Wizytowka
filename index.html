@@ -15,8 +15,8 @@
     <div class="animacjalogo">
     <a href="https://github.com/Damian0o0"><img id="github" src="images\github.png"></a>
     </div>
-    <div class="menu">
 
+    <div class="menu">
       <a class="animacjamenu" id="active" href="#omnie">O mnie</a>
       <a>|</a>
 
@@ -27,6 +27,7 @@
       <a>|</a>
 
       <a class="animacjamenu" id="kontaktt" href="#kontakt">Kontakt</a>
+
     </div>
   </div>
     <div id="omnie">
@@ -36,33 +37,19 @@
     </div>
     <div id="projekty">
       <h1>Projekty, które już zrobiłem</h1>
-      
+      <button id="tes">Open Popup</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Your pop-up content goes here.</p>
+        </div>
+      </div>
       <a href="https://github.com/Damian0o0/Kliker" style="visibility: hidden;">Kliker</a>
       <a href="https://github.com/Damian0o0/Zgadywanie-Liczby" style="visibility: hidden;">Zgadywanie Liczby</a>
       <a href="https://github.com/Damian0o0/Lista-Filmow" style="visibility: hidden;">Lista Filmów</a>
       <h2>Wisielec</h2>
       <img src="images/wisielec.png">
-      <div class="openBtn">
-        <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
-      </div>
-      <div class="loginPopup">
-        <div class="formPopup" id="popupForm">
-          <form action="/action_page.php" class="formContainer">
-            <h2>Please Log in</h2>
-            <label for="email">
-              <strong>E-mail</strong>
-            </label>
-            <input type="text" id="email" placeholder="Your Email" name="email" required>
-            <label for="psw">
-              <strong>Password</strong>
-            </label>
-            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
-            <button type="submit" class="btn">Log in</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-          </form>
-        </div>
-      </div>
-      
+  
       <br>
       
       <a class="bordeer" href="https://github.com/Damian0o0/Wisielec">Github</a>
@@ -135,6 +122,7 @@
     </div>
     
     <div id="stopka">
+      <button id="language-switch"></button>
     </div>
 
 </body>
