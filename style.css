@@ -199,6 +199,9 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
     -ms-overflow-style: none; /* Ukrywa scroll dla firefox i microsoft edge */
     scrollbar-width: none;
   }
+  #projekty{
+    visibility: hidden;
+  }
   .menu{
     color: white;
     overflow: hidden;
