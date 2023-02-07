@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Wizytówka</title>
+    <title id="title">Wizytówka</title>
 </head>
 <body lang="pl-PL">
     <div class="animacjalogo">
@@ -17,23 +17,24 @@
       <a class="animacjamenu" id="active" href="#omnie">O mnie</a>
       <a>|</a>
 
-      <a class="animacjamenu" href="#umiejetnosci">Umiejętności</a>
+      <a class="animacjamenu" id="abilities" href="#umiejetnosci">Umiejętności</a>
       <a>|</a>
 
-      <a class="animacjamenu" href="">Projekty</a>
+      <a class="animacjamenu" id="projects" href="">Projekty</a>
       <a>|</a>
 
-      <a class="animacjamenu" id="kontaktt" href="#kontakt">Kontakt</a>
+      <a class="animacjamenu" id="contact" href="#kontakt">Kontakt</a>
 
     </div>
   </div>
     <div id="omnie">
-        <h1 class="pierwszeh">Cześć!</h1>
-        <h1 class="drugieh">Nazywam sie Damian Górka</h1>
-        <h1 class="trzecieh">Interesuję się piłką nożną i programowaniem</h1>
+        <h1 id="pierwszeh">Cześć!</h1>
+        <h1 id="drugieh">Nazywam sie Damian Górka</h1>
+        <h1 id="trzecieh">Interesuję się piłką nożną i programowaniem</h1>
     </div>
+    <script src="scripts/translator.js"></script>
     <div id="projekty">
-      <h1>Projekty, które już zrobiłem</h1>
+      <h1 id="h1projekty">Moje inne projekty</h1>
       
       <div id="myModal" class="modal">
         <div class="modal-content">
@@ -45,15 +46,15 @@
       <a href="https://github.com/Damian0o0/Kliker" style="visibility: hidden;">Kliker</a>
       <a href="https://github.com/Damian0o0/Zgadywanie-Liczby" style="visibility: hidden;">Zgadywanie Liczby</a>
       <a href="https://github.com/Damian0o0/Lista-Filmow" style="visibility: hidden;">Lista Filmów</a>
-      <h2>Wisielec</h2>
+      <div class="wisielec">
+      <h2 id="wisieelec">Wisielec</h2>
       <img src="images/wisielec.png">
-  
       <br>
-      
-      <a class="bordeer" href="https://github.com/Damian0o0/Wisielec">Github</a>
+      <a class="bordeer" id="githuuub" href="https://github.com/Damian0o0/Wisielec">Github</a>
       <button id="myBtn">Informacje</button>
     </div>
-    <script src="popup.js"></script>
+    </div>
+    <script src="scripts/popup.js"></script>
     <div id="umiejetnosci">
       <h1 class="h1umiejetnosci">
             U
@@ -69,7 +70,6 @@
         <br>c
         <br>i
       </h1>
-    
       <div class="cardflip">
         <div class="flipcard">
           <div class="flipcardfront">
@@ -120,22 +120,21 @@
         <input id="przycisk" type="submit" value="Prześlij">
       </form>
     </div>
+    <script src="scripts/translator.js"></script>
     <div id="footer">
     </div>
-    <button onclick="changeLanguage('eng')">
-      Change to English
-    </button>
     <button onclick="changeLanguage('pl')">
       Change to Polish
+    </button>
+    <button onclick="changeLanguage('eng')">
+      Change to English
     </button>
     <button onclick="changeLanguage('rus')">
       Change to Russian
     </button>
     <p id="siteContent">
-      Welcome to the GeeksforGeeks Portal! 
-      You can choose any language using the
-      buttons above!
+      Jakiś randomowy tekst.
     </p>
-    <script src="translator.js"></script>
+    <script src="scripts/translator.js"></script>
 </body>
 </html>
