@@ -18,6 +18,7 @@
         h1projekty: "Moje inne projekty",
         wisieelec: "Wisielec",
         myBtn: "Informacje",
+        informacjeowisielcu: "Zadanie, które zrobiłem na przedmiot 'Programowanie Aplikacji Desktopowych'. Jest to klasyczna gra nazywana 'Wisielec', która polega na zgadywaniu liter w słowie, aż w końcu ułożymy całe słowo, tak, aby wisielec nie ukazał sie do końca.",
         contactmetext: "Skontaktuj się ze mną",
         namelabel: "Imie",
         messagelabel: "Wiadomość",
@@ -36,6 +37,7 @@
         h1projekty: "My other projects",
         wisieelec: "Hangman",
         myBtn: "Information",
+        informacjeowisielcu: "An assignment I did for the subject 'Desktop Applications Programming'. It is a classic game of 'Hangman', which involves guessing the letters in a word until you finally put the whole word together so that the hangman doesn't show up fully.",
         contactmetext: "Сontact me",
         namelabel: "Name",
         messagelabel: "Message",
@@ -54,6 +56,7 @@
         h1projekty: "Другие мои проекты",
         wisieelec: "Виселица",
         myBtn: "Информация",
+        informacjeowisielcu: "Задание, которое я выполнил по предмету 'Программирование настольных приложений'. Это классическая игра 'Виселица', которая предполагает угадывание букв в слове, пока вы, наконец, не составите все слово так, чтобы виселица не появилась до конца.",
         contactmetext: "Свяжитесь со мной",
         namelabel: "Имя",
         messagelabel: "Сообщение",
@@ -86,6 +89,8 @@
           language.eng.wisieelec;
           myBtn.textContent =
           language.eng.myBtn;
+          informacjeowisielcu.textContent =
+          language.eng.informacjeowisielcu;
           contactmetext.textContent =
           language.eng.contactmetext;
           namelabel.textContent =
@@ -118,6 +123,8 @@
           language.rus.wisieelec;
           myBtn.textContent =
           language.rus.myBtn;
+          informacjeowisielcu.textContent =
+          language.rus.informacjeowisielcu;
           contactmetext.textContent =
           language.rus.contactmetext;
           namelabel.textContent =

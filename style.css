@@ -233,8 +233,6 @@ body::-webkit-scrollbar {
   border-width: 1px;
 }
 #flagarosji{
-  border-width: 0px;
-  padding: 0;
   border: none;
   background: none;
   margin-right: -100px;
@@ -253,18 +251,22 @@ body::-webkit-scrollbar {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #83af6a;
   margin: 15% auto; 
   padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
   border: 1px solid #888;
-  width: 80%; 
+  width: 22%; 
+  height: 22%
 }
 
 
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
 }
 
