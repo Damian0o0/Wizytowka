@@ -24,6 +24,7 @@
         messagelabel: "Wiadomość",
         przyciskkontakt: "Prześlij",
 
+
       },
       eng: {
         title: "Business site",
@@ -41,7 +42,8 @@
         contactmetext: "Сontact me",
         namelabel: "Name",
         messagelabel: "Message",
-        przyciskkontakt: "Send"
+        przyciskkontakt: "Send",
+
        
       },
       rus: {
@@ -60,7 +62,8 @@
         contactmetext: "Свяжитесь со мной",
         namelabel: "Имя",
         messagelabel: "Сообщение",
-        przyciskkontakt: "Отправить"
+        przyciskkontakt: "Отправить",
+
       }
     };
 
@@ -99,6 +102,7 @@
           language.eng.messagelabel;
           przyciskkontakt.textContent =
           language.eng.przyciskkontakt;
+      
       }
       else if (window.location.hash == "#rus") {
           title.textContent =
@@ -133,5 +137,6 @@
           language.rus.messagelabel;
           przyciskkontakt.textContent =
           language.rus.przyciskkontakt;
+    
       }
     }

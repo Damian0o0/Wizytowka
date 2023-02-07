@@ -51,6 +51,9 @@ body::-webkit-scrollbar {
 #kontaktt {
   margin-right: 20px;
 }
+#kontakt{
+  background-color: grey;
+}
 /*animacja najezdzania na tekst menu */
 #omnie h1 {
   text-align: center;
@@ -137,9 +140,9 @@ body::-webkit-scrollbar {
   margin-right: auto;
   transform-style: preserve-3d;
   margin-bottom: 50px;
-  margin-left: 200px;
+  margin-left: 250px;
   margin-top: -850px;
-  width: 420px;
+  width: 430px;
   height: 800px;
 }
 .h1umiejetnosci {
