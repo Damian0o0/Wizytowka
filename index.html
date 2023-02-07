@@ -34,12 +34,13 @@
     </div>
     <div id="projekty">
       <h1>Projekty, które już zrobiłem</h1>
-      <button id="tes">Open Popup</button>
+      
       <div id="myModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
           <p>Your pop-up content goes here.</p>
         </div>
+      </div>
       </div>
       <a href="https://github.com/Damian0o0/Kliker" style="visibility: hidden;">Kliker</a>
       <a href="https://github.com/Damian0o0/Zgadywanie-Liczby" style="visibility: hidden;">Zgadywanie Liczby</a>
@@ -50,7 +51,9 @@
       <br>
       
       <a class="bordeer" href="https://github.com/Damian0o0/Wisielec">Github</a>
+      <button id="myBtn">Informacje</button>
     </div>
+    <script src="popup.js"></script>
     <div id="umiejetnosci">
       <h1 class="h1umiejetnosci">
             U
@@ -114,11 +117,25 @@
         <br>
         <textarea class="input" id="temat" name="subject" style="height:100px;"></textarea>
         <br>
-        <input id="przycisk" type="submit" value="Prześlij">
+        <input id="przycisk" ty`pe="submit" value="Prześlij">
       </form>
     </div>
     <div id="footer">
-      Stopka witryny
     </div>
+    <button onclick="changeLanguage('eng')">
+      Change to English
+    </button>
+    <button onclick="changeLanguage('pl')">
+      Change to Polish
+    </button>
+    <button onclick="changeLanguage('rus')">
+      Change to Russian
+    </button>
+    <p id="siteContent">
+      Welcome to the GeeksforGeeks Portal! 
+      You can choose any language using the
+      buttons above!
+    </p>
+    <script src="translator.js"></script>
 </body>
 </html>
