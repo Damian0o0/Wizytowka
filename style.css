@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
   margin-right: 20px;
 }
 #kontakt{
-  background-color: grey;
+  background-color:rgb(61, 61, 61);
 }
 /*animacja najezdzania na tekst menu */
 #omnie h1 {
