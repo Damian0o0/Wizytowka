@@ -22,7 +22,7 @@
         contactmetext: "Skontaktuj się ze mną",
         namelabel: "Imie",
         messagelabel: "Wiadomość",
-        przyciskkontakt: "Prześlij"
+        przyciskkontakt: "Prześlij",
 
       },
       eng: {

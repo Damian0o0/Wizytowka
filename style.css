@@ -118,21 +118,31 @@ body::-webkit-scrollbar {
 }
 /* Animacja kart */
 #umiejetnosci {
+  height: 1000px;
+  width: 100%;
+  background-color: transparent;
   margin: 1rem;
   color: white;
   font-weight: bold;
-  text-align: left;
+  float: left;
+}
+#h1umiejetnosci{
+  writing-mode: vertical-rl;
+  letter-spacing: -2px;
+  font-size: 150px;
+  margin-left: -20px;
+  margin-top: 50px;
 }
 .cardflip {
   background-color: transparent;
   display: inline-block;
   margin-right: auto;
   transform-style: preserve-3d;
-  margin-bottom: 200px;
-  margin-left: 150px;
-  margin-top: -1000px;
-  width: 400px;
-  height: 400px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-top: -850px;
+  width: 420px;
+  height: 800px;
 }
 .h1umiejetnosci {
   font-size: 50px;
@@ -149,6 +159,41 @@ body::-webkit-scrollbar {
 }
 .cardflip:hover .flipcard {
   transform: rotateY(180deg);
+}
+#githuuub{
+  text-align: center;
+  width: 10%;
+  text-decoration: none;
+  background-color: #13c419;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+#myBtn{
+  text-align: center;
+  width: 10%;
+  background-color: #13c419;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  margin-left: 20px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 20px;
+}
+#githuuub:hover {
+  background-color: #62ff67;
+}
+#myBtn:hover {
+  background-color: #62ff67;
 }
 .flipcardfront,
 .flipcardback {
