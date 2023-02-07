@@ -18,7 +18,8 @@
         trzecieh: "Interesuję się piłką nożną i programowaniem",
         h1projekty: "Moje inne projekty",
         wisieelec: "Wisielec",
-        myBtn: "Informacje"
+        myBtn: "Informacje",
+        name: "Imie"
       },
       eng: {
         title: "Business site",
@@ -32,7 +33,8 @@
         trzecieh: "My interests are football and programming",
         h1projekty: "My other projects",
         wisieelec: "Hangman",
-        myBtn: "Information"
+        myBtn: "Information",
+        name: "Name"
       },
       rus: {
         title: "Визитная карточка",
@@ -46,7 +48,8 @@
         trzecieh: "Я интересуюсь футболом и программированием",
         h1projekty: "Другие мои проекты",
         wisieelec: "Виселица",
-        myBtn: "Информация"
+        myBtn: "Информация",
+        name: "Имя"
       }
     };
 
@@ -77,6 +80,8 @@
           language.eng.wisieelec;
           myBtn.textContent =
           language.eng.myBtn;
+          name.textContent =
+          language.rus.name;
       }
       else if (window.location.hash == "#rus") {
           title.textContent =
@@ -103,5 +108,7 @@
           language.rus.wisieelec;
           myBtn.textContent =
           language.rus.myBtn;
+          name.textContent =
+          language.rus.name;
       }
     }
