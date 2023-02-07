@@ -217,11 +217,10 @@ body::-webkit-scrollbar{ /* Ukrywa scroll dla chrome, safari i opery */
   font-size: 75px;
   font-weight: 600;
 }
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+#footer {
+  position: static;
+
   background-color: rgb(4, 141, 4);
   height: 90px;
+  width: 100%;
 }
