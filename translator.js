@@ -7,25 +7,24 @@
   
     var language = {
       eng: {
-        welcome: "Welcome to the GeeksforGeeks " +
-        "Portal! You can choose any language " + 
-        "using the buttons above!"
+        welcome: "Some testing text " +
+        "Some testing text " + 
+        "Some testing text ",
       },
       pl: {
-        welcome: "¡Bienvenido al portal GeeksforGeeks! " +
-        "¡Puedes elegir cualquier idioma usando " +
-        "los botones de arriba!"
+        welcome: "Jakiś testowy tekst " +
+        "Jakiś testowy tekst " +
+        "Jakiś testowy tekst "
       },
       rus: {
-        welcome: "GeeksforGeeks पोर्टल पर आपका स्वागत है! " +
-        "आप ऊपर दिए गए बटन का उपयोग करके किसी भी " + 
-        "भाषा को चुन सकते हैं!"
+        welcome: "Некоторый тестовый текст " +
+        "Некоторый тестовый текст " + 
+        "Некоторый тестовый текст"
       }
     };
 
     if (window.location.hash) {
   
-
       if (window.location.hash == "#pl") {
         siteContent.textContent =
           language.pl.welcome;
