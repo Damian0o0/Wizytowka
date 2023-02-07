@@ -172,7 +172,7 @@ body::-webkit-scrollbar {
   text-align: center;
   color: white;
 }
-#przycisk {
+#przyciskkontakt{
   text-align: center;
   width: 10%;
   background-color: #13c419;
@@ -185,7 +185,7 @@ body::-webkit-scrollbar {
   font-size: 30px;
   border-radius: 20px;
 }
-#przycisk:hover {
+#przyciskkontakt:hover {
   background-color: #62ff67;
 }
 .input {
@@ -224,6 +224,13 @@ body::-webkit-scrollbar {
   background-color: rgb(4, 141, 4);
   height: 90px;
   width: 100%;
+}
+#footer button{
+  float: right;
+  background-color: rgb(4, 141, 4);
+  border-color: white;
+  border-radius: 10px;
+  border-width: 1px;
 }
 .modal {
   display: none; /* Hidden by default */
@@ -264,4 +271,8 @@ body::-webkit-scrollbar {
 .wisielec{
   text-align: center;
   text-decoration: none;
+}
+#kontakt label{
+  font-size: 30px;
+  font-weight: bold;
 }

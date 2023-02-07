@@ -8,7 +8,6 @@
     var language = {
       pl: {
         title: "Tytuł strony",
-        welcome: "Jakiś testowy tekst",
         aboutme: "O mnie",
         abilities: "Umiejętności",
         projects: "Projekty",
@@ -19,11 +18,14 @@
         h1projekty: "Moje inne projekty",
         wisieelec: "Wisielec",
         myBtn: "Informacje",
-        name: "Imie"
+        contactmetext: "Skontaktuj się ze mną",
+        namelabel: "Imie",
+        messagelabel: "Wiadomość",
+        przyciskkontakt: "Prześlij"
+
       },
       eng: {
         title: "Business site",
-        welcome: "Some testing text",
         aboutme: "About me",
         abilities: "Abilities",
         projects: "Projects",
@@ -34,11 +36,14 @@
         h1projekty: "My other projects",
         wisieelec: "Hangman",
         myBtn: "Information",
-        name: "Name"
+        contactmetext: "Сontact me",
+        namelabel: "Name",
+        messagelabel: "Message",
+        przyciskkontakt: "Send"
+       
       },
       rus: {
         title: "Визитная карточка",
-        welcome: "Некоторый тестовый текст",
         aboutme: "Обо мне",
         abilities: "Навыки",
         projects: "Проекты",
@@ -49,7 +54,10 @@
         h1projekty: "Другие мои проекты",
         wisieelec: "Виселица",
         myBtn: "Информация",
-        name: "Имя"
+        contactmetext: "Свяжитесь со мной",
+        namelabel: "Имя",
+        messagelabel: "Сообщение",
+        przyciskkontakt: "Отправить"
       }
     };
 
@@ -58,8 +66,6 @@
       if (window.location.hash == "#eng") {
           language.eng.title;
           pierwszeh.textContent =
-          siteContent.textContent =
-          language.eng.welcome;
           active.textContent =
           language.eng.aboutme;
           abilities.textContent =
@@ -80,14 +86,18 @@
           language.eng.wisieelec;
           myBtn.textContent =
           language.eng.myBtn;
-          name.textContent =
-          language.rus.name;
+          contactmetext.textContent =
+          language.eng.contactmetext;
+          namelabel.textContent =
+          language.eng.namelabel;
+          messagelabel.textContent =
+          language.eng.messagelabel;
+          przyciskkontakt.textContent =
+          language.eng.przyciskkontakt;
       }
       else if (window.location.hash == "#rus") {
           title.textContent =
           language.rus.title;
-          siteContent.textContent =
-          language.rus.welcome;
           active.textContent =
           language.rus.aboutme;
           abilities.textContent =
@@ -108,7 +118,13 @@
           language.rus.wisieelec;
           myBtn.textContent =
           language.rus.myBtn;
-          name.textContent =
-          language.rus.name;
+          contactmetext.textContent =
+          language.rus.contactmetext;
+          namelabel.textContent =
+          language.rus.namelabel;
+          messagelabel.textContent =
+          language.rus.messagelabel;
+          przyciskkontakt.textContent =
+          language.rus.przyciskkontakt;
       }
     }
